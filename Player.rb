@@ -1,9 +1,9 @@
 class Player
-  attr_accessor :name
+  attr_accessor :username
   attr_accessor :points
 
-  def initialize(name, points)
-    @name = name
+  def initialize(username, points)
+    @username = username
     @points = points
   end
 end

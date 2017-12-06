@@ -9,5 +9,4 @@ class Question
     @answer = (@left + @right).to_i
     @question_string = "What does #{@left} plus #{@right} equal?"
   end
-
 end
